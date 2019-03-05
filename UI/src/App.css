@@ -1,0 +1,214 @@
+#content-wrapper{
+    background-color: #f8f9fc;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#content-wrapper #content{
+    flex: 1 0 auto;
+}
+
+.text-gray{
+    color: #5a5c69!important;
+}
+
+.topbar{
+    height: 100px;
+    color: #fff;
+    background: #7d3f98;
+}
+
+.shadow-bottom{
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+}
+
+.dashboard{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #e3e6f0;
+    border-radius: .35rem;
+}
+
+.dashboard-shadow{
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+}
+
+.dashboard-header{
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    color: #fff;
+    border-bottom: 1px solid #e3e6f0;
+    border-radius: calc(.35rem - 1px) calc(.35rem - 1px) 0 0;
+}
+
+.dashboard-content{
+    padding: 20px;
+    color: #414141;
+}
+
+.search-bar-container{
+    margin-bottom: 20px;
+}
+
+.input-search{
+    width: calc(100% - 80px) !important;
+}
+
+.button-search{
+    margin-left: 15px;
+    margin-top:  -5px;
+}
+
+.Member{
+    background-color: #1cc88a;
+}
+
+.Claims{
+    background-color: #f6c23e;  
+}
+
+.Employer{
+    background-color: #e74a3b;   
+}
+
+.login-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -170px;
+    margin-top: -154px;
+    width: 340px;
+}
+.login-form .login-contents {
+    background: #f7f7f7;
+    padding: 30px;
+    border-radius: .35rem;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+
+.red-text{
+    color: red;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.login-content-wrapper{
+    background-image: url(./assets/img/login-background.jpg);
+    background-size: cover;
+}
+
+.btn-logout{
+    position: absolute !important;
+    right: 20px;
+}
+
+.btn-edit, .btn-ok, .btn-cancel{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.edit-election{
+    width: 100px !important;
+    font-size: 14px !important;
+    line-height: 1 !important;
+}
+
+#member-table{
+    margin: 0 !important;
+}
+
+#memberAccordion .btn{
+    cursor: pointer;
+    color: #1cc88a;
+    padding: 0;
+    min-height: 0px;
+    text-decoration: underline;
+}
+
+.member-claim-details{
+    background: #f8f9fc;
+}
+
+.member-claim-details td{
+    padding: 0 !important;
+}
+
+.member-claim-details-content{
+    padding: 12px;
+}
+
+#claim-summary{
+    background: #fff;
+    margin: 20px 0 10px 0 !important;
+}
+
+#claim-summary td{
+    padding: 8px !important;
+}
+
+#claim-summary td p{
+    margin: 0 !important;
+    font-size: 14px;
+}
+
+.add-member{
+    margin-bottom: 20px;   
+}
+
+#addMemberForm{
+    background: #f8f9fc;
+    font-size: 14px;
+}
+
+#addMemberForm input{
+    font-size: 14px !important;
+}
+
+.member-add-form{
+    padding: 20px;
+}
+
+.btn-add-member{
+    font-size: 14px !important;
+    margin-bottom: 15px;
+}
+
+.required-field{
+    color: red;
+}
+
+.add-member-form-error{
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 0px !important;
+}
+
+.login-form-error{
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.add-member-form-note{
+    position: relative;
+    float: right;
+    margin: 10px 0 0 0 !important;
+}
+
+#addMemberLink{
+    margin-bottom: 10px;
+}
