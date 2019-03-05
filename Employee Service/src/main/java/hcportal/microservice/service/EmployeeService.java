@@ -50,9 +50,15 @@ public class EmployeeService {
 			return null;
 		}
 
-		int id = this.respository.findMaxId() + 1;
-		employee.setEmployeeId(id);
-		return this.respository.save(employee);
+		if (employee.getFirstName() != null && employee.getFirstName().length() > 0 && employee.getLastName() != null
+				&& employee.getLastName().length() > 0 && employee.getAddress1() != null
+				&& employee.getAddress1().length() > 0) {
+			int id = this.respository.findMaxId() + 1;
+			employee.setEmployeeId(id);
+			return this.respository.save(employee);
+		}
+
+		return null;
 	}
 
 	@Cacheable("EmployeeId")
