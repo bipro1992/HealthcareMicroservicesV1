@@ -66,7 +66,7 @@
         To get list of claims for given employee: http://hc-gateway.ap-south-1.elasticbeanstalk.com/healthcare/v1/claimOps/claimDetail/employee/{id},
         where {id} is employee Id
 
-       To get claim detail fro claim id: http://hc-gateway.ap-south-1.elasticbeanstalk.com/healthcare/v1/claimOps/claimDetail/{id},
+       To get claim detail from claim id: http://hc-gateway.ap-south-1.elasticbeanstalk.com/healthcare/v1/claimOps/claimDetail/{id},
         where {id} is claim Id
         
 After adding services, run them as per above sequence and test the service operations from above provided URLs. 
